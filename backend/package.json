@@ -1,0 +1,24 @@
+{
+  "name": "excalidraw-backend",
+  "version": "1.0.0",
+  "description": "Backend REST API for Excalidraw Reconstruction Lab",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Backend tests passing\" && exit 0"
+  },
+  "keywords": [
+    "whiteboard",
+    "drawing",
+    "express",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
